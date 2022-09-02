@@ -1,14 +1,14 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Header from './header'
 
-export default function Home() {
+export default function Header(props) {
   return (
     <>
-    <Header quem="Mauricio" />
     <div className='border-white text-center border-2 mauricio'>
-    <h1>Home</h1>
+    <h1>Menu Header {props.quem}</h1>
+    <a href="/portifolio">Portifolio</a><br />
+    <a href="/">Home</a>
     </div>
     </>
   )
