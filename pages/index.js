@@ -8,7 +8,7 @@ export default function Home() {
     <>
     <Header quem="Mauricio" />
     <div className='border-white text-center border-2 mauricio'>
-    <h1>Home</h1>
+    
     </div>
     </>
   )
