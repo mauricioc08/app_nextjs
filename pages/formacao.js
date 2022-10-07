@@ -5,17 +5,14 @@ import Header from './header'
 import Footer from './footer'
 import imageLogo from '../public/img/minha_foto.jpg'
 
-export default function Home() {
+export default function Formacao() {
   return (
     <>
     <Header/>
     
     <main className='colunas'> 
       <Image className='rounded-bl-lg' src={imageLogo} alt="foto perfil"/>
-      <div>
-        <h1 className='respo text-7xl leading-tight font-bold mb-8 relative'>Desenvolvedor <br/>Front-End</h1>
-        <p className='text-2xl'>Localizado em Guarulhos-SP</p>
-      </div>
+      Formacao teste
     </main>
 
     <Footer/>
