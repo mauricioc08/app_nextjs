@@ -6,9 +6,9 @@ import Link from 'next/link'
 export default function Header(props) {
   return (
     <>
-    <body className='w-screen'>
+    <body className='w-screen '>
     
-    <header className='flex items-center justify-between px-5 py-10 max-w-7xl m-0 mx-auto'>
+    <header className='flex items-center justify-between px-5 py-10 max-w-7xl my-0 mx-auto'>
      <h1 className='text-5xl font-bold p-0 m-0 cursor-pointer'>Mauricio Cassiano</h1>
      <nav >
       <ul className='flex flex-wrap gap-10 justify-center'>
