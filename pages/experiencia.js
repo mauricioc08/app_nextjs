@@ -12,7 +12,7 @@ export default function Experiencia(props) {
 
       <div className="empresa">
         <span className="empresa-ano">2022</span>
-        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/bikcraft/" target="_blank">Bikcraft</a></h3>
+        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/bikcraft/" target="_blank" rel="noreferrer" >Bikcraft</a></h3>
         <span className="empresa-titulo">Desenvolvedor Front-End</span>
         <p className="empresa-texto">No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site.<br/> É um site fictício de vendas, onde os produtos são bicicletas elétricas e seguros para os compradores. Além disso o site contém formulários de contatos e orçamentos.</p>
         <ul className="empresa-habilidades">
@@ -25,7 +25,7 @@ export default function Experiencia(props) {
 
       <div className="empresa">
         <span className="empresa-ano">2022</span>
-        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/Sitas-e-Peculiar/" target="_blank">Sitas&Peculiar</a></h3>
+        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/Sitas-e-Peculiar/" target="_blank" rel="noreferrer" >Sitas&Peculiar</a></h3>
         <span className="empresa-titulo">Desenvolvedor Front-End</span>
         <p className="empresa-texto">(Sitas&peculiar) tem como objetivo mostrar algumas dicas e informações sobre espécies, alimentação, meio ambiente, criação de calopsitas e muito mais... <br/>
 
@@ -39,7 +39,7 @@ export default function Experiencia(props) {
 
       <div className="empresa">
         <span className="empresa-ano">2022</span>
-        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/Clone_instagram/" target="_blank">Clone-Instagran</a></h3>
+        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/Clone_instagram/" target="_blank" rel="noreferrer" >Clone-Instagran</a></h3>
         <span className="empresa-titulo">Desenvolvedor Front-End</span>
         <p className="empresa-texto">No projeto Clone-Instagran eu trabalhei no desenvolvimento de uma pagina inicial de login do instagran.</p>
         <ul className="empresa-habilidades">
@@ -51,7 +51,7 @@ export default function Experiencia(props) {
 
       <div className="empresa">
         <span className="empresa-ano">2022</span>
-        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/netflix-clone/" target="_blank">Netflix-clone</a></h3>
+        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/netflix-clone/" target="_blank" rel="noreferrer" >Netflix-clone</a></h3>
         <span className="empresa-titulo">Desenvolvedor Front-End</span>
         <p className="empresa-texto">Um projeto de um site simples e responsivo baseado no Layout da Netflix, onde você pode acessar alguns conteúdos de trailers ao clicar no filme, série ou conteúdo desejado.</p>
         <ul className="empresa-habilidades">
@@ -64,7 +64,7 @@ export default function Experiencia(props) {
 
       <div className="empresa">
         <span className="empresa-ano">2022</span>
-        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/Calculador-de-IMC/" target="_blank"> Calculador-de-IMC</a></h3>
+        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/Calculador-de-IMC/" target="_blank" rel="noreferrer" > Calculador-de-IMC</a></h3>
         <span className="empresa-titulo">Desenvolvedor Front-End</span>
         <p className="empresa-texto">Um calculador de imc simples, onde você pode calcular se está a acima, a baixo ou no peso ideal segundo o IMC (Índice de Massa Corporal) pelo seu peso e altura.</p>
         <ul className="empresa-habilidades">
@@ -77,7 +77,7 @@ export default function Experiencia(props) {
 
       <div className="empresa">
         <span className="empresa-ano">2022</span>
-        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/page-flexbox-origamid/" target="_blank">Page-flexbox-origamid</a></h3>
+        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/page-flexbox-origamid/" target="_blank" rel="noreferrer" >Page-flexbox-origamid</a></h3>
         <span className="empresa-titulo">Desenvolvedor Front-End</span>
         <p className="empresa-texto">Uma pagina feita no curso de front-end da Origamid com layout responsivo toda feita usando flexbox.</p>
         <ul className="empresa-habilidades">
