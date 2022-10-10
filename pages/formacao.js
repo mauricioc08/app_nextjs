@@ -6,34 +6,34 @@ import imageLogo from '../public/img/minha_foto.jpg'
 
 export default function Formacao(props) {
   return (
-    <section class="formacao" id="formacao" aria-label="Formação">
-      <div class="formacao-container">
-        <h2 class="subtitulo">Formação</h2>
+    <section className="formacao" id="formacao" aria-label="Formação">
+      <div className="formacao-container">
+        <h2 className="subtitulo">Formação</h2>
         <div>
-          <p class="formacao-texto">
+          <p className="formacao-texto">
             Minha mais recente experiência acadêmica foi a <strong>Pós Graduação</strong>  🎓 em <strong> Gestão de Pessoas</strong>. Além disso me mantenho sempre atualizado com cursos intensivos online.
           </p>
 
-          <ul class="faculdade-lista">
-            <li class="faculdade">
-              <span class="faculdade-tipo">Bacharel</span>
-              <h3 class="faculdade-curso">Administração</h3>
-              <span class="faculdade-instituicao">UNINOVE</span>
+          <ul className="faculdade-lista">
+            <li className="faculdade">
+              <span className="faculdade-tipo">Bacharel</span>
+              <h3 className="faculdade-curso">Administração</h3>
+              <span className="faculdade-instituicao">UNINOVE</span>
             </li>
-            <li class="faculdade">
-              <span class="faculdade-tipo">TECNÓLOGO</span>
-              <h3 class="faculdade-curso">Processos Gerenciais</h3>
-              <span class="faculdade-instituicao">FAEL</span>
+            <li className="faculdade">
+              <span className="faculdade-tipo">TECNÓLOGO</span>
+              <h3 className="faculdade-curso">Processos Gerenciais</h3>
+              <span className="faculdade-instituicao">FAEL</span>
             </li>
-            <li class="faculdade">
-              <span class="faculdade-tipo">Pós Graduação</span>
-              <h3 class="faculdade-curso">Gestão de Pessoas</h3>
-              <span class="faculdade-instituicao">FAEL</span>
+            <li className="faculdade">
+              <span className="faculdade-tipo">Pós Graduação</span>
+              <h3 className="faculdade-curso">Gestão de Pessoas</h3>
+              <span className="faculdade-instituicao">FAEL</span>
             </li>
           </ul>
 
-          <div class="formacao-extra">
-            <div class="cursos">
+          <div className="formacao-extra">
+            <div className="cursos">
               <h3>Cursos Intensivos</h3>
               <ul>
                 <li>Front End para Iniciantes<span>Origamid</span></li>
@@ -43,7 +43,7 @@ export default function Formacao(props) {
               </ul>
             </div>
 
-            <div class="idiomas">
+            <div className="idiomas">
               <h3>Idiomas</h3>
               <ul>
                 <li>Inglês <span>/ Básico</span></li>
