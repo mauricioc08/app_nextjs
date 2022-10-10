@@ -1,5 +1,10 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Image from 'next/image'
+import imgBikcraft from '../public/img/bikcraft.jpg'
+import imgSitas from '../public/img/Sitas&Peculiar.jpg'
+import imgInsta from '../public/img/Instagram-Login.jpg'
+import imgNetf from '../public/img/Netflix-clone.jpg'
+import imgCalc from '../public/img/Calculador-imc.jpg'
+import imgFlex from '../public/img/Flexbox-page.jpg'
 
 
 export default function Experiencia(props) {
@@ -16,7 +21,7 @@ export default function Experiencia(props) {
         <span className="empresa-titulo">Desenvolvedor Front-End</span>
         <p className="empresa-texto">No projeto Bikcraft eu trabalhei no desenvolvimento completo do HTML, CSS e JavaScript do site.<br/> É um site fictício de vendas, onde os produtos são bicicletas elétricas e seguros para os compradores. Além disso o site contém formulários de contatos e orçamentos.</p>
         <ul className="empresa-habilidades">
-          <img src="./img/bikcraft.jpg" alt="Imagem de um site de Bicicletas a venda"/>
+          <Image src={imgBikcraft} alt="Imagem de um site de Bicicletas a venda"/>
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
@@ -31,7 +36,7 @@ export default function Experiencia(props) {
 
           Importante ressaltar que esse é um projeto feito totalmente do zero, sem qualquer base de site para copiar (somente informações de veterinários e sites especialistas na criação de calopsitas.</p>
         <ul className="empresa-habilidades">
-          <img src="./img/Sitas&Peculiar.jpg" alt="Foto de um site sobre calopsitas"/>
+          <Image src={imgSitas} alt="Foto de um site sobre calopsitas"/>
           <li>HTML</li>
           <li>CSS</li>
         </ul>
@@ -43,7 +48,7 @@ export default function Experiencia(props) {
         <span className="empresa-titulo">Desenvolvedor Front-End</span>
         <p className="empresa-texto">No projeto Clone-Instagran eu trabalhei no desenvolvimento de uma pagina inicial de login do instagran.</p>
         <ul className="empresa-habilidades">
-          <img src="./img/Instagram-Login.jpg" alt="Foto de um site, login do instragram"/>
+          <Image src={imgInsta} alt="Foto de um site, login do instragram"/>
           <li>HTML</li>
           <li>CSS</li>
         </ul>
@@ -55,7 +60,7 @@ export default function Experiencia(props) {
         <span className="empresa-titulo">Desenvolvedor Front-End</span>
         <p className="empresa-texto">Um projeto de um site simples e responsivo baseado no Layout da Netflix, onde você pode acessar alguns conteúdos de trailers ao clicar no filme, série ou conteúdo desejado.</p>
         <ul className="empresa-habilidades">
-          <img src="./img/Netflix-clone.jpg" alt="Foto de um site clone da netflix"/>
+          <Image src={imgNetf} alt="Foto de um site clone da netflix"/>
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
@@ -68,7 +73,7 @@ export default function Experiencia(props) {
         <span className="empresa-titulo">Desenvolvedor Front-End</span>
         <p className="empresa-texto">Um calculador de imc simples, onde você pode calcular se está a acima, a baixo ou no peso ideal segundo o IMC (Índice de Massa Corporal) pelo seu peso e altura.</p>
         <ul className="empresa-habilidades">
-          <img src="./img/Calculador-imc.jpg" alt="Foto de um site sobre calcular imc"/>
+          <Image src={imgCalc} alt="Foto de um site sobre calcular imc"/>
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
@@ -81,7 +86,7 @@ export default function Experiencia(props) {
         <span className="empresa-titulo">Desenvolvedor Front-End</span>
         <p className="empresa-texto">Uma pagina feita no curso de front-end da Origamid com layout responsivo toda feita usando flexbox.</p>
         <ul className="empresa-habilidades">
-          <img src="./img/Flexbox-page.jpg" alt="Foto de um site colorido usando elementos do flexbox"/>
+          <Image src={imgFlex} alt="Foto de um site colorido usando elementos do flexbox"/>
           <li>HTML</li>
           <li>CSS</li>
         </ul>

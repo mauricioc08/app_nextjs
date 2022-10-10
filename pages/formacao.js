@@ -1,8 +1,3 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Header from './header'
-import Footer from './footer'
-import imageLogo from '../public/img/minha_foto.jpg'
 
 export default function Formacao(props) {
   return (
