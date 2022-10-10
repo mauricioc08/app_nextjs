@@ -42,7 +42,7 @@ export default function Formacao(props) {
               <h3>Idiomas</h3>
               <ul>
                 <li>Inglês <span>/ Básico</span></li>
-                <li>Português <span>/ Nativo</span></li>
+                <li>Português <span>/ Nativo / Avançado</span></li>
               </ul>
             </div>
 
