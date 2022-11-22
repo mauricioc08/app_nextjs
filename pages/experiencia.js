@@ -23,7 +23,7 @@ export default function Experiencia(props) {
         <span className="empresa-ano">2022</span>
         <h3 className="empresa-titulo"><a href="https://cep-search-react-ay5cz0723-mauricioc08.vercel.app/" target="_blank" rel="noreferrer">Buscador_de_CEP</a></h3>
         <span className="empresa-titulo">Desenvolvedor Front-End</span>
-        <p className="empresa-texto">Este é um projeto onde você pode pesquisar qualquer endereço a partir do CEP..<br/>Basta digitar o cep desejado e pesquisar.</p>
+        <p className="empresa-texto">Este é um projeto onde você pode pesquisar qualquer endereço a partir do CEP..<br/>Basta digitar o Cep desejado e pesquisar.</p>
         <ul className="empresa-habilidades">
           <Image src={cepImg} alt="Imagem de um site gerador de Qrcode"/>
           <li>HTML</li>
