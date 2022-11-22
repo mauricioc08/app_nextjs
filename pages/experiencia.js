@@ -5,6 +5,10 @@ import imgInsta from '../public/img/Instagram-Login.jpg'
 import imgNetf from '../public/img/Netflix-clone.jpg'
 import imgCalc from '../public/img/Calculador-imc.jpg'
 import imgFlex from '../public/img/Flexbox-page.jpg'
+import combustivel from '../public/img/gasolineVsEtanol.png'
+import qrcodeImg from '../public/img/Qrcode.png'
+import pokeImg from '../public/img/pokemon.png'
+import cepImg from '../public/img/buscadorCep.png'
 
 
 export default function Experiencia(props) {
@@ -13,7 +17,62 @@ export default function Experiencia(props) {
     <section className="experiencia" id="experiencia" aria-label="Experiência">
     <h2 className="subtitulo">Experiência</h2>
     <div className="carousel">
-      <p className="experiencia-texto">Desenvolvo pequenos projetos como o Bikcraft utilizando apenas <strong>HTML</strong> , <strong>CSS</strong>  e <strong>JavaScript</strong>. Para o meu desenvolvimento e experiência tenho alguns projetos que desenvolvi durante os meus estudos na área.</p>
+      <p className="experiencia-texto">Desenvolvo projetos como o Bikcraft e Buscador de Cep utilizando <strong>HTML</strong> , <strong>CSS</strong>, <strong>JavaScript</strong> e <strong>ReactJs</strong>. Para o meu desenvolvimento e experiência tenho alguns projetos que desenvolvi durante os meus estudos na área.</p>
+
+      <div className="empresa">
+        <span className="empresa-ano">2022</span>
+        <h3 className="empresa-titulo"><a href="https://cep-search-react-ay5cz0723-mauricioc08.vercel.app/" target="_blank" rel="noreferrer">Buscador_de_CEP</a></h3>
+        <span className="empresa-titulo">Desenvolvedor Front-End</span>
+        <p className="empresa-texto">Este é um projeto onde você pode pesquisar qualquer endereço a partir do CEP..<br/>Basta digitar o cep desejado e pesquisar.</p>
+        <ul className="empresa-habilidades">
+          <Image src={cepImg} alt="Imagem de um site gerador de Qrcode"/>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>ReactJs</li>
+        </ul>
+      </div>
+
+      <div className="empresa">
+        <span className="empresa-ano">2022</span>
+        <h3 className="empresa-titulo"><a href="https://app-pokemons-mixgb706l-mauricioc08.vercel.app/" target="_blank" rel="noreferrer">Pokémon_Api</a></h3>
+        <span className="empresa-titulo">Desenvolvedor Front-End</span>
+        <p className="empresa-texto">Desenvolvi um projeto para consumir uma API de nome, tipo e imagem de Pokémon do site PokéAPI em reactjs.<br/>Támbem é possivel pesquisar pelo nome do Pokémon.</p>
+        <ul className="empresa-habilidades">
+          <Image src={pokeImg} alt="Imagem de um site gerador de Qrcode"/>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>ReactJs</li>
+        </ul>
+      </div>
+
+      <div className="empresa">
+        <span className="empresa-ano">2022</span>
+        <h3 className="empresa-titulo"><a href="https://qrcode-generator-5f5ll540b-mauricioc08.vercel.app/" target="_blank" rel="noreferrer">Gerador-de-Qrcode</a></h3>
+        <span className="empresa-titulo">Desenvolvedor Front-End</span>
+        <p className="empresa-texto">Desenvolvi um Gerador de Qrcode em reactjs com a opção de baixar a imagem.<br/>Basta digitar o link do site desejado e o Qrcode ficará disponivel.</p>
+        <ul className="empresa-habilidades">
+          <Image src={qrcodeImg} alt="Imagem de um site gerador de Qrcode"/>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>ReactJs</li>
+        </ul>
+      </div>
+
+      <div className="empresa">
+        <span className="empresa-ano">2022</span>
+        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/gasolineVsEtanol/" target="_blank" rel="noreferrer">GasolineVsEtanol</a></h3>
+        <span className="empresa-titulo">Desenvolvedor Front-End</span>
+        <p className="empresa-texto">Devido a grande oscilação dos preços dos combustíveis, eu desenvolvi esse projeto para me ajudar a escolher o combustível ideal de acordo com o preço de cada um "paridade de combustivél".<br/>Espero que este aplicativo possa ajudar outras pessoas com o mesmo problema.</p>
+        <ul className="empresa-habilidades">
+          <Image src={combustivel} alt="Imagem de um site de paridade de combustível"/>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
 
       <div className="empresa">
         <span className="empresa-ano">2022</span>
@@ -27,6 +86,7 @@ export default function Experiencia(props) {
           <li>JavaScript</li>
         </ul>
       </div>
+     
 
       <div className="empresa">
         <span className="empresa-ano">2022</span>
