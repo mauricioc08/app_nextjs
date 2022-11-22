@@ -65,7 +65,7 @@ export default function Experiencia(props) {
         <span className="empresa-ano">2022</span>
         <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/gasolineVsEtanol/" target="_blank" rel="noreferrer">GasolineVsEtanol</a></h3>
         <span className="empresa-titulo">Desenvolvedor Front-End</span>
-        <p className="empresa-texto">Devido a grande oscilação dos preços dos combustíveis, eu desenvolvi esse projeto para me ajudar a escolher o combustível ideal de acordo com o preço de cada um "paridade de combustivél".<br/>Espero que este aplicativo possa ajudar outras pessoas com o mesmo problema.</p>
+        <p className="empresa-texto">Devido a grande oscilação dos preços dos combustíveis, eu desenvolvi esse projeto para me ajudar a escolher o combustível ideal de acordo com o preço de cada um {`${'"paridade de combustivél"'}`}.<br/>Espero que este aplicativo possa ajudar outras pessoas com o mesmo problema.</p>
         <ul className="empresa-habilidades">
           <Image src={combustivel} alt="Imagem de um site de paridade de combustível"/>
           <li>HTML</li>
@@ -90,11 +90,11 @@ export default function Experiencia(props) {
 
       <div className="empresa">
         <span className="empresa-ano">2022</span>
-        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/Sitas-e-Peculiar/" target="_blank" rel="noreferrer" >Sitas&Peculiar</a></h3>
+        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/Sitas-e-Peculiar/" target="_blank" rel="noreferrer">Sitas&Peculiar</a></h3>
         <span className="empresa-titulo">Desenvolvedor Front-End</span>
         <p className="empresa-texto">(Sitas&peculiar) tem como objetivo mostrar algumas dicas e informações sobre espécies, alimentação, meio ambiente, criação de calopsitas e muito mais... <br/>
 
-          Importante ressaltar que esse é um projeto feito totalmente do zero, sem qualquer base de site para copiar (somente informações de veterinários e sites especialistas na criação de calopsitas.</p>
+          Importante ressaltar que esse é um projeto feito totalmente do zero, sem qualquer base de site para copiar somente informações de veterinários e sites especialistas na criação de calopsitas.</p>
         <ul className="empresa-habilidades">
           <Image src={imgSitas} alt="Foto de um site sobre calopsitas"/>
           <li>HTML</li>
