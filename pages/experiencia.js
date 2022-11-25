@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import imgBikcraft from '../public/img/bikcraft.jpg'
-import imgSitas from '../public/img/Sitas&Peculiar.jpg'
+import imgSitas from '../public/img/SitasPeculiar.jpg'
 import imgInsta from '../public/img/Instagram-Login.jpg'
 import imgNetf from '../public/img/Netflix-clone.jpg'
 import imgCalc from '../public/img/Calculador-imc.jpg'
