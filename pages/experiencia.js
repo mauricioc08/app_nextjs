@@ -9,6 +9,8 @@ import combustivel from '../public/img/gasoline.png'
 import qrcodeImg from '../public/img/Qrcode.png'
 import pokeImg from '../public/img/pokemon.png'
 import cepImg from '../public/img/buscadorCep.png'
+import jokeImg from '../public/img/jokes.png'
+import nasaImg from '../public/img/nasa.png'
 
 
 export default function Experiencia(props) {
@@ -58,6 +60,32 @@ export default function Experiencia(props) {
           <li>CSS</li>
           <li>JavaScript</li>
           <li>ReactJs</li>
+        </ul>
+      </div>
+
+      <div className="empresa">
+        <span className="empresa-ano">2022</span>
+        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/api_NASA/" target="_blank" rel="noreferrer">NASA-API</a></h3>
+        <span className="empresa-titulo">Desenvolvedor Front-End</span>
+        <p className="empresa-texto">Desenvolvi um site onde é feito requisições de api da nasa, contendo fotos e descrição sobre o autor da imagem.</p>
+        <ul className="empresa-habilidades">
+          <Image src={nasaImg} alt="Imagem de um site de fotos da nasa"/>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+      </div>
+
+      <div className="empresa">
+        <span className="empresa-ano">2022</span>
+        <h3 className="empresa-titulo"><a href="https://mauricioc08.github.io/api_NASA/" target="_blank" rel="noreferrer">Jokes_chockNorris</a></h3>
+        <span className="empresa-titulo">Desenvolvedor Front-End</span>
+        <p className="empresa-texto">Desenvolvi um site muito divertido onde é feito requisições de api de piadas sobre o Chuck Nurris.</p>
+        <ul className="empresa-habilidades">
+          <Image src={jokeImg} alt="Imagem de um site de fotos da nasa"/>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
         </ul>
       </div>
 
