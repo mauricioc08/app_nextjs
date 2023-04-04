@@ -45,9 +45,6 @@ export default function Experiencia(props) {
           </p>
           <ul className="empresa-habilidades">
             <Image src={cepImg} alt="Imagem de um site gerador de Qrcode" />
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
             <li>ReactJs</li>
           </ul>
         </div>
@@ -72,9 +69,6 @@ export default function Experiencia(props) {
           </p>
           <ul className="empresa-habilidades">
             <Image src={pokeImg} alt="Imagem de um site gerador de Qrcode" />
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
             <li>ReactJs</li>
           </ul>
         </div>
@@ -99,9 +93,6 @@ export default function Experiencia(props) {
           </p>
           <ul className="empresa-habilidades">
             <Image src={qrcodeImg} alt="Imagem de um site gerador de Qrcode" />
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
             <li>ReactJs</li>
           </ul>
         </div>
