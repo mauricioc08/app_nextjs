@@ -1,6 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 html,
 body {
@@ -23,6 +20,10 @@ ul {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
 }
 
 
