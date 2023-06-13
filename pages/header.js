@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
 import { useState } from "react";
+import styles from "./header.module.css";
 
 export default function Header(props) {
   const [mytitle, setMytitle] = useState("Meu Portifolio");
@@ -14,7 +15,7 @@ export default function Header(props) {
       <Head>
         <title>{mytitle}</title>
       </Head>
-      <header className="header">
+      <header className={styles.header}>
         <Link href="/">
           <h1>
             <span onClick={() => handleTitle("Meu Portifolio")}>
@@ -23,7 +24,7 @@ export default function Header(props) {
           </h1>
         </Link>
         <nav>
-          <ul className="header-menu js-menu">
+          <ul className={`${styles.headerMenu} js-menu`}>
             <li>
               <a href="#experiencia" onClick={() => handleTitle("Experiencia")}>
                 Experiencia

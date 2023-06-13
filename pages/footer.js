@@ -1,12 +1,14 @@
+import styles from "./footer.module.css";
+
 export default function Footer(props) {
   return (
-    <footer className="footer" id="contato">
-      <div className="footer-container">
-        <p className="footer-texto">
+    <footer className={styles.footer} id="contato">
+      <div className={styles.footerContainer}>
+        <p className={styles.footerTexto}>
           Estou disponível para novos projetos no momento. Entre em contato
           comigo e marcamos uma conversa 👋
         </p>
-        <ul className="footer-contato">
+        <ul className={styles.footerContato}>
           <li> mauricio-cassiano@hotmail.com</li>
           <li>
             <a
@@ -36,7 +38,7 @@ export default function Footer(props) {
             </a>
           </li>
         </ul>
-        <p className="footer-copy">
+        <p className={styles.footerCopy}>
           Mauricio Cassiano © Alguns direitos reservados.
         </p>
       </div>
