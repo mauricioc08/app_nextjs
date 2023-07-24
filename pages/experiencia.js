@@ -38,7 +38,7 @@ export default function Experiencia(props) {
           <span className={styles.empresaAno}>2023</span>
           <h3 className={styles.empresaTitulo}>
             <a
-              href="https://chat-gpt-nextjs-bsjv-e2c63z3m9-mauricioc08.vercel.app/"
+              href="https://chat-gpt-nextjs-d3ocbsoon-mauricioc08.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
