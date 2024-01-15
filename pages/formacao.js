@@ -16,9 +16,9 @@ export default function Formacao(props) {
 
             <ul className={styles.faculdadeLista}>
               <li className={styles.faculdade}>
-                <span className={styles.faculdadeTipo}>Bacharel</span>
-                <h3 className={styles.faculdadeCurso}>Administração</h3>
-                <span className={styles.faculdadeInstituicao}>UNINOVE</span>
+                <span className={styles.faculdadeTipo}>Graduação</span>
+                <h3 className={styles.faculdadeCurso}>Análise e Desenvolvimento de Sistemas</h3>
+                <span className={styles.faculdadeInstituicao}>UNIFAEL</span>
               </li>
               <li className={styles.faculdade}>
                 <span className={styles.faculdadeTipo}>TECNÓLOGO</span>

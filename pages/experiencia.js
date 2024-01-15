@@ -24,7 +24,7 @@ export default function Experiencia(props) {
       <h2 className={styles.subtitulo}>Experiência</h2>
       <div className={styles.carousel}>
         <p className={styles.experienciaTexto}>
-          Olá, me chamo Mauricio Cassiano, sou desenvolvedor Front-end
+          Olá, me chamo Mauricio Cassiano, sou desenvolvedor Web
           experiente em <strong>HTML</strong> , <strong>CSS</strong>,{" "}
           <strong>JavaScript</strong> , <strong>ReactJs</strong> e{" "}
           <strong>NextJs</strong>. Crio projetos inovadores, aprimorando
