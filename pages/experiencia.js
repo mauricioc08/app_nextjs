@@ -298,7 +298,7 @@ export default function Experiencia(props) {
           <span className={styles.empresaAno}>2022</span>
           <h3 className={styles.empresaTitulo}>
             <a
-              href="https://mauricioc08.github.io/netflix-clone/"
+              href="https://mauricioc08.github.io/clone_netflix_example/"
               target="_blank"
               rel="noreferrer"
             >
