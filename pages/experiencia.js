@@ -7,7 +7,6 @@ import imgCalc from "../public/img/Calculador-imc.jpg";
 import imgFlex from "../public/img/Flexbox-page.jpg";
 import combustivel from "../public/img/gasoline.png";
 import qrcodeImg from "../public/img/Qrcode.png";
-import pokeImg from "../public/img/pokemon.png";
 import cepImg from "../public/img/buscadorCep.png";
 import jokeImg from "../public/img/jokes.png";
 import nasaImg from "../public/img/nasa.png";
@@ -55,6 +54,8 @@ export default function Experiencia(props) {
             <Image
               src={chatImg}
               alt="Imagem de um site baseado no chatGpt, faça uma pergunta e ele responde."
+              width={350}
+              height={250} 
             />
             <li>NextJs</li>
           </ul>
@@ -82,6 +83,8 @@ export default function Experiencia(props) {
             <Image
               src={listaImg}
               alt="Imagem de um site que cria listas de tarefas"
+              width={350}
+              height={250} 
             />
             <li>ReactJs</li>
           </ul>
@@ -106,31 +109,12 @@ export default function Experiencia(props) {
             Basta digitar o Cep desejado e pesquisar.
           </p>
           <ul className={styles.empresaHabilidades}>
-            <Image src={cepImg} alt="Imagem de um site gerador de Qrcode" />
-            <li>ReactJs</li>
-          </ul>
-        </div>
-
-        <div className={styles.empresa}>
-          <span className={styles.empresaAno}>2022</span>
-          <h3 className={styles.empresaTitulo}>
-            <a
-              href="https://app-pokemons-mixgb706l-mauricioc08.vercel.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Pokémon_Api
-            </a>
-          </h3>
-          <span className={styles.empresaTitulo}>Desenvolvedor Front-End</span>
-          <p className={styles.empresaTexto}>
-            Desenvolvi um projeto para consumir uma API de nome, tipo e imagem
-            de Pokémon do site PokéAPI em reactjs.
-            <br />
-            Támbem é possivel pesquisar pelo nome do Pokémon.
-          </p>
-          <ul className={styles.empresaHabilidades}>
-            <Image src={pokeImg} alt="Imagem de um site gerador de Qrcode" />
+            <Image 
+            src={cepImg} 
+            alt="Imagem de um site gerador de Qrcode" 
+            width={350}
+            height={250}  
+            />
             <li>ReactJs</li>
           </ul>
         </div>
@@ -154,7 +138,12 @@ export default function Experiencia(props) {
             Basta digitar o link do site desejado e o Qrcode ficará disponivel.
           </p>
           <ul className={styles.empresaHabilidades}>
-            <Image src={qrcodeImg} alt="Imagem de um site gerador de Qrcode" />
+            <Image 
+              src={qrcodeImg} 
+              alt="Imagem de um site gerador de Qrcode" 
+              width={350}
+              height={250}  
+            />
             <li>ReactJs</li>
           </ul>
         </div>
@@ -176,7 +165,12 @@ export default function Experiencia(props) {
             fotos e descrição sobre o autor da imagem.
           </p>
           <ul className={styles.empresaHabilidades}>
-            <Image src={nasaImg} alt="Imagem de um site de fotos da nasa" />
+            <Image 
+             src={nasaImg} 
+             alt="Imagem de um site de fotos da nasa" 
+             width={350}
+             height={250}  
+             />
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -200,7 +194,12 @@ export default function Experiencia(props) {
             de piadas sobre o Chuck Nurris.
           </p>
           <ul className={styles.empresaHabilidades}>
-            <Image src={jokeImg} alt="Imagem de um site de fotos da nasa" />
+            <Image 
+             src={jokeImg} 
+             alt="Imagem de um site de fotos da nasa"
+             width={350}
+             height={250} 
+            />
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -230,6 +229,8 @@ export default function Experiencia(props) {
             <Image
               src={combustivel}
               alt="Imagem de um site de paridade de combustível"
+              width={350}
+              height={250} 
             />
             <li>HTML</li>
             <li>CSS</li>
@@ -260,6 +261,8 @@ export default function Experiencia(props) {
             <Image
               src={imgBikcraft}
               alt="Imagem de um site de Bicicletas a venda"
+              width={350}
+              height={250} 
             />
             <li>HTML</li>
             <li>CSS</li>
@@ -288,7 +291,11 @@ export default function Experiencia(props) {
             veterinários e sites especialistas na criação de calopsitas.
           </p>
           <ul className={styles.empresaHabilidades}>
-            <Image src={imgSitas} alt="Foto de um site sobre calopsitas" />
+            <Image 
+             src={imgSitas} 
+             alt="Foto de um site sobre calopsitas" 
+             width={350}
+             height={250} />
             <li>HTML</li>
             <li>CSS</li>
           </ul>
@@ -312,7 +319,12 @@ export default function Experiencia(props) {
             clicar no filme, série ou conteúdo desejado.
           </p>
           <ul className={styles.empresaHabilidades}>
-            <Image src={imgNetf} alt="Foto de um site clone da netflix" />
+            <Image 
+             src={imgNetf} 
+             alt="Foto de um site clone da netflix" 
+             width={350}
+             height={250} 
+             />
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -338,7 +350,12 @@ export default function Experiencia(props) {
             Corporal) pelo seu peso e altura.
           </p>
           <ul className={styles.empresaHabilidades}>
-            <Image src={imgCalc} alt="Foto de um site sobre calcular imc" />
+            <Image 
+             src={imgCalc} 
+             alt="Foto de um site sobre calcular imc"
+             width={350}
+             height={250} 
+            />
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
@@ -365,6 +382,8 @@ export default function Experiencia(props) {
             <Image
               src={imgFlex}
               alt="Foto de um site colorido usando elementos do flexbox"
+              width={350}
+              height={250} 
             />
             <li>HTML</li>
             <li>CSS</li>

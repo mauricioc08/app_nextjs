@@ -5,7 +5,12 @@ import styles from "./introducao.module.css";
 export default function Main(props) {
   return (
     <main className={styles.introducao}>
-      <Image src={MinhaFoto} alt="foto perfil" />
+      <Image 
+       src={MinhaFoto} 
+       alt="foto perfil" 
+       width={366}
+       height={330} 
+       />
       <div>
         <h1>
           Desenvolvedor <br /> Front-End
